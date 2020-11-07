@@ -1,7 +1,7 @@
 up: build run
 
 build:
-	csc -platform:x86 src/*.cs -out:build/client.exe
+	csc -platform:x86 *.cs -out:bin/client.exe
 
 run:
-	 mono ./build/client.exe
+	 mono ./bin/client.exe
